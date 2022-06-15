@@ -20,5 +20,22 @@ CREATE TABLE tb_pets (
     ds_idade      int,
     ds_genero     varchar(200),
     ds_telefone   varchar(200),
+    img_pet       varchar(200),
     FOREIGN KEY (id_usuario) REFERENCES tb_usuario (id_usuario)
     );
+
+    /*
+
+{
+    "usuario": 1,
+    "nome": "evee",
+    "animal": "cachorro",
+    "raca": "poodle",
+    "idade": 9,
+    "genero": "macho",
+    "endereco": "av um",
+    "telefone": "(11) 999888"
+}
+
+
+    */

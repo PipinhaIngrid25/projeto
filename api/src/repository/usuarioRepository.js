@@ -2,8 +2,8 @@ import { con } from './connection.js'
 
 
 export async function login(email,senha) {
-    const comando = `select id_comando id,
-                        nome_usuario     nome,
+    const comando = `select id_usuario id,
+                        nm_usuario     nome,
                         ds_email        email
                     from tb_usuario
                     where ds_email = ?
