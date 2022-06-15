@@ -14,5 +14,5 @@ server.use(express.json());
 server.use(usuarioController);
 server.use(petController);
 
-
-server.listen(process.env.PORT, () => console.log(`API conectada na porta $ {process.env.PORT}`));
+server.listen(process.env.PORT, () =>
+                             console.log(`API conectada na porta $ {process.env.PORT}`));
