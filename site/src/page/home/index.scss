@@ -1,0 +1,211 @@
+.cod{
+
+.Entradas{
+    display: flex;
+    justify-content: space-around;
+}
+.Entrada1{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #CA5928;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5em;
+    margin-top: 1em;
+    margin-left: 55em;
+    width: 8em;
+    height: 3em;
+    text-decoration: none;
+}
+.Entrada2{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #CA5928;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 7em;
+    height: 3em;
+    text-decoration: none;
+}
+.Logo{
+    width: 10em;
+    height: 5em;
+}
+.Login{
+    width: 3.7em;
+    height: 4.5em;
+    margin-right: 1em;
+}
+.Imagem-site{
+    width: 88em;
+    height: 45em;
+}
+.Titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+    color: #CA5928;
+
+    position: absolute;
+    top: 100px;
+
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+h2{
+    font-size: 40px;
+    color: #fff;
+    
+    margin-top: -1em;
+}
+
+.Titulo-2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #CA5928;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.Textos-2{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3em;
+    align-items: center;
+}
+.Paragrafo-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+}
+.Imagem-2{
+    padding: 2em;
+    width: 38em;
+}
+
+.Titulo-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #CA5928;
+    text-align: right;
+}
+
+.Textos-3{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Paragrafo-3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: right;
+}
+.Imagem-3{
+    width: 50em;
+    margin: 5em;
+    margin-left: 1em;
+}
+.Faixa-4{
+
+    background-color: #29a9b3;
+    height: 20em;
+}
+.Imagens-Informação{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Qtd{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Titulos-4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Textos-5{
+    display: flex;
+    flex-direction: row;
+}
+
+.Titulo-5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #CA5928;
+    text-align: left;
+    margin-top: 2em;
+}
+
+
+.Paragrafo-5{
+    font-family: 'fonte3';
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.Imagem-5{
+    margin: 5em;
+    width: 35em;
+    
+}
+.Faixa-6{
+    background-color: #29a9b3;
+    margin: 1em 0em -1em -1em;
+}
+.Titulo-6{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+    margin-top: -6em;
+}
+.Logo-6{
+    margin-left: 1em;
+}
+.Informações-Dados{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5em;
+}
+.Rede-Social{
+    size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3em;
+    margin-top: -3em;
+}
+.Contato{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5em;
+    margin-left: -6em;
+    
+}
+.contatoss{
+    width: 5em;
+}
+.Redes{
+    width: 5em;
+    margin-top: 7em;
+}
+}

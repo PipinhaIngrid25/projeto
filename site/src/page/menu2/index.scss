@@ -1,0 +1,109 @@
+.cod{
+
+.Adicionar{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.4em;
+}
+.Login{
+    width: 6em;
+    margin-left: -8em;
+    border-radius: 2em;
+}
+.Pagina-Inicial{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: #29A9B3;
+    margin-left: -8em;
+    margin-top: 1em;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #29A9B3;
+    margin-left: 2em;
+}
+.Mais-Pets{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5em;
+    background-color: #29A9B3;
+    color: #fff;
+    border-radius: 2em;
+    width: 6em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cards-criados{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5em;
+}
+.Card1{
+    font-family: 'Poppins', sans-serif;
+    background-color: #29A9B3;
+    border-radius: 2em;
+    width: 25em;
+    height: 28em;
+}
+.Card2{
+    font-family: 'Poppins', sans-serif;
+    background-color: #29A9B3;
+    border-radius: 2em;
+    width: 25em;
+}
+.Card3{
+    font-family: 'Poppins', sans-serif;
+    background-color: #29A9B3;
+    border-radius: 2em;
+    width: 25em;
+}
+.contatos{
+    float: right;
+    margin-top: -23.5em;
+}
+p{
+    background-color: #fff;
+    font-size: 1.5em;
+    width: 7em;
+    margin-top: 1em;
+    margin: 1em;
+}
+.Jade{
+    width: 10.5em;
+    height: 11em;
+    margin-left: 1.3em;
+}
+.Alicia{
+    width: 10.5em;
+    height: 11em;
+    margin-left: 1.5em;
+}
+.Paçoca{
+    width: 10.5em;
+    margin-left: 1.5em;
+    height: 11em;
+}
+.alterar{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43C6D0;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 1em;
+    margin-left: 1.3em;
+    width: 6em;
+    height: 1.7em;
+}
+.remover{
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    display: block;
+    margin-left: 2.5em;
+    margin-top: 1em;
+}
+}
