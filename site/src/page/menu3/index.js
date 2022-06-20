@@ -5,19 +5,19 @@ export default function index() {
     
     return(
         <main className='cod'>
-            <div class="pets">
-        <div class="principal">
+            <div className="pets">
+        <div className="principal">
             <h1>Adotar é amar de graça.</h1>
-            <div class="textos">
+            <div className="textos">
                 <h3>Adoção deve sser um processo deacolhimento baseado no amor e no respeito, trazendo alegria a todos da nova familia constituida, e não um peso para quem acolheu, nem um castgo para quem foi acolhido </h3>
-                <img class="Animais" src="/images/Cachorro e gatinho.jpg" alt='cachorro e gatinho'/>
+                <img className="Animais" src="/images/Cachorro e gatinho.jpg" alt='cachorro e gatinho'/>
             </div>
-            <h1 class="t2">Conheça os nossos animais</h1>
+            <h1 className="t2">Conheça os nossos animais</h1>
         </div>
             
-        <div class="cards">
-            <div class="card1">
-                <img class="Cacau" src="/images/Cacau.jpg" alt='Cacau'/>
+        <div className="cards">
+            <div className="card1">
+                <img className="Cacau" src="/images/Cacau.jpg" alt='Cacau'/>
                 <h2>Adote a Cacau</h2>
                 <h5>Fêmea <br/>
                     Sem raça definida <br/>
@@ -25,8 +25,8 @@ export default function index() {
                     No abrigo desde: 19/07/2019</h5>
             </div>
                
-            <div class="card1">
-                <img class="Marley" src="/images/Marley.png" alt='marley'/>
+            <div className="card1">
+                <img className="Marley" src="/images/Marley.png" alt='marley'/>
                 <h2>Adote o marley</h2>
                 <h5>macho <br/>
                     Sem raça definida <br/>
@@ -37,9 +37,9 @@ export default function index() {
             </div>
         </div>
 
-        <div class="cards">
-          <div class="card2">
-            <img class="Duque" src="/images/Duque.png" alt='duque'/>
+        <div className="cards">
+          <div className="card2">
+            <img className="Duque" src="/images/Duque.png" alt='duque'/>
             <h2>Adote a Duque</h2>
             <h5>macho <br/>
                 Sem raça definida <br/>
@@ -49,8 +49,8 @@ export default function index() {
             </h5>
           </div>
 
-          <div class="card2">
-            <img class="Princesa" src="/images/Princesa.png" alt='princesa'/>
+          <div className="card2">
+            <img className="Princesa" src="/images/Princesa.png" alt='princesa'/>
             <h2>Adote a princesa</h2>
             <h5>Femea <br/>
                 Sem raça definida <br/>
@@ -61,9 +61,9 @@ export default function index() {
          </div>
         </div>
 
-        <div class="cards">
-         <div class="card3">
-             <img class="Xubi" src="/images/Xubi.jpg" alt='xubi'/>
+        <div className="cards">
+         <div className="card3">
+             <img className="Xubi" src="/images/Xubi.jpg" alt='xubi'/>
              <h2>Adote a Xubi</h2>
              <h5>Fêmea <br/>
                 sem raça definida <br/>
@@ -71,8 +71,8 @@ export default function index() {
                 No abrigo desde: 14/02/2019</h5>
          </div>
 
-         <div class="card3">
-             <img class="Fofinha" src="/images/Fofinha.jpg" alt='fofinha'/>
+         <div className="card3">
+             <img className="Fofinha" src="/images/Fofinha.jpg" alt='fofinha'/>
              <h2>Adote a Fofinha </h2>
              <h5>Fêmea <br/>
                 Raça: Ragdoll <br/>
@@ -81,9 +81,9 @@ export default function index() {
          </div>
         </div>
 
-        <div class="cards">
-         <div class="card4">
-             <img class="Maezinho" src="/images/Maezinho.jpg" alt='maezinho'/>
+        <div className="cards">
+         <div className="card4">
+             <img className="Maezinho" src="/images/Maezinho.jpg" alt='maezinho'/>
              <h2>Adote o Maezinho</h2>
              <h5>Macho <br/>
                 Raça: Siamês <br/>
@@ -91,8 +91,8 @@ export default function index() {
                 No abrigo desde: 14/06/202 0</h5>
          </div>
 
-         <div class="card4">
-             <img class="Leoni" src="/images/Leoni.jpg" alt='leoni'/>
+         <div className="card4">
+             <img className="Leoni" src="/images/Leoni.jpg" alt='leoni'/>
              <h2>Adote o Leoni</h2>
              <h5>Macho <br/>
                 sem raça definida <br/>
