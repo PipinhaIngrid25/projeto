@@ -3,22 +3,29 @@ import axios  from 'axios'
 import { useState } from 'react'
 import './index.scss'
 
-export default function index() {
+import { useNavigate } from 'react-router-dom';
+
+import { Link } from 'react-router-dom';
+
+export default function Index() {
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
+    const [erro, setErro] = useState('');
 
     const navigate = useNavigate();
 
     async function entrarClick() {
         try {
+            i
             const r = await axios.get('http://localhost:5000/usuario/login',{
             email:email,
             senha:senha
         });
         navigate('/admin');
+
      } catch (err) {
         if (err.response.status === 401){
-            setErro(err.response.data);
+            err.response.data;
       }
     }
 }
@@ -30,8 +37,8 @@ export default function index() {
             <h1> Bem-vindo ao Login</h1>
             <p>Acesse sua conta agora mesmo. </p>
             <div className="botoes">
-                <a className="cad" href="../menu" > Cadastrar </a>
-                <a className="log" href="../menu2"onClick={entrarClick}> Login </a>
+                <Link className="cad" to="../menu" > Cadastrar </Link>
+                <Link className="log" to="../menu2"onClick={entrarClick}> Login </Link>
             </div>
            
        </div>
@@ -52,6 +59,8 @@ export default function index() {
                 <label for="senha" > senha: </label>
                 <input class="text" type="password"value= { senha } onChange={e => setSenha(e.target.value)} />
              </div>
+
+             {erro}
             </div>
 
    </div>

@@ -92,7 +92,7 @@ export default function index() {
          </div>
 
          <div className="card4">
-             <img className="Leoni" src="/images/Leoni.jpg" alt='leoni'/>
+             <img classname="Leoni" src="/images/Leoni.jpg" alt='leoni'/>
              <h2>Adote o Leoni</h2>
              <h5>Macho <br/>
                 sem raça definida <br/>

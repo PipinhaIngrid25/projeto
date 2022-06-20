@@ -7,11 +7,11 @@ import App from './App';
 
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
-import Home from './page/home/index'
-import Login from './page/login/index'
-import Menu from './page/menu/index'
-import Menu2 from './page/menu2/index'
-import Menu3 from './page/menu3/index'
+import Home from './page/home/'
+import Login from './page/login'
+import Menu from './page/menu'
+import Menu2 from './page/menu2'
+import Menu3 from './page/menu3'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

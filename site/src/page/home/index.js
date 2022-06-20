@@ -1,4 +1,5 @@
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 
 export default function index() {
@@ -8,8 +9,8 @@ export default function index() {
             <section className="Faixa-1">
             <header className="Entradas">
                 <img className="Logo" src="/images/logoo.png" alt='logoo'/>
-                <a className="Entrada1" href="../menu3">VER PETS</a>
-                <a className="Entrada2" href="../login">LOGIN</a>
+                <a className="Entrada1" href="/menu3">VER PETS</a>
+                <Link className="Entrada2" to="/Login">LOGIN</Link>
                 <img className="Login" src="/images/Loginn.svg" alt='loginn'/>
             </header>
 
