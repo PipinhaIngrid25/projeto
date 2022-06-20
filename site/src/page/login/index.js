@@ -4,8 +4,9 @@ import { useState } from 'react'
 import './index.scss'
 
 import { useNavigate } from 'react-router-dom';
-
+import {} from './api'
 import { Link } from 'react-router-dom';
+import { login } from '../../api/usuarioApi';
 
 export default function Index() {
     const [email, setEmail] = useState('');
@@ -16,19 +17,18 @@ export default function Index() {
 
     async function entrarClick() {
         try {
-            i
-            const r = await axios.get('http://localhost:5000/usuario/login',{
-            email:email,
-            senha:senha
-        });
-        navigate('/admin');
+            const r = await login(email, senha)
+            navigate('/');
+        }
+        
+        catch (err) {
+            alert('ERROR')
+        }
 
-     } catch (err) {
-        if (err.response.status === 401){
-            err.response.data;
-      }
+
     }
-}
+
+
     
     return(
         <main className='cod'>
