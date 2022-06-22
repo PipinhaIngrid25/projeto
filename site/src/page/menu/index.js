@@ -4,7 +4,7 @@ import './index.scss';
 export default function index() {
     
     return(
-        <main className=''>
+        <main className='cod'>
             <div class="p-container">
        <a href="../home"> Home </a>
        <h2> Crie um card para o seu pet</h2>

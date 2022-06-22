@@ -95,4 +95,114 @@ h5{
     width: 22em;
     height: 22em;
 }
+
+
+
+
+.p-container {
+
+    background-position: center;
+    background-size: 91em;
+    background-repeat: no-repeat;
+    height: 49.3em;
+    width: 90em;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: #29a9b3;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 1em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    color: #29a9b3;
+    margin: 2em;
+    margin-left: 7em;
+}
+
+.carrd {
+    background-color: #29a9b3;
+    height: 21em;
+    width: 43em;
+    padding: 2em;
+    margin: 5em 0em 0em 25em;
+    border-radius: 27px;
+    margin-left: 20em;
+}
+
+.in-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    height: 1.6em;
+    width: 10em;
+    appearance: none;
+    margin: 2em;
+    margin-top: -1.0em;
+}
+.Escolha{
+    font-size: 0.9em;
+    width: 8em;
+    margin-top: 1em;
+}
+.Animal{
+    font-size: 0.9em;
+    width: 8em;
+    margin-top: 1em;
+}
+
+.in-6 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    height: 10em;
+    width: 10em;
+    appearance: none;
+    margin-left: 12em;
+    margin-top: -13.7em;
+}
+
+.in-7 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    height: 3em;
+    width: 10em;
+    appearance: none;
+    margin-left: 12em;
+    margin-top: -7.3em;
+}
+
+.in-8 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    height: 6.8em;
+    width: 10em;
+    background-color: #fff;
+    appearance: none;
+    margin-left: 12em;
+}
+
+.button {
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    height: 2em;
+    width: 10em;
+    background-color: #29a9b3;
+    color: #fff;
+    border-radius: 35px;
+    margin-left: 21em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }

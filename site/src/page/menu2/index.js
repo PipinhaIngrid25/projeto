@@ -3,7 +3,7 @@ import './index.scss';
 export default function index() {
     
     return(
-        <main classNameName='cod'>
+        <main className='cod'>
             <div className="Adicionar">
         
         <div className="Botões">
@@ -52,19 +52,24 @@ export default function index() {
                     Pq. Res. Cocaia <br/>
                     Nº20 <br/>
                 <p> São Paulo, SP</p>
-                <img class="Alicia" src="/images/Alicia.jpg" alt='alicia'/>
+                <img className="Alicia" src="/images/Alicia.jpg" alt='alicia'/>
             </div>
 
         <div className="Card3">
             <p>Paçoca</p>
+
             <p>3 anos</p>
+
             <p>Sem raça</p>
-            <p>Cachorro<p/>
-            <p>Macho</p>94908-1832</p>
+
+            <p>Cachorro</p>
+
+            <p>Macho</p>
+
             <p>Rua: Paraíso <br/>
-                Pq. Res. Cocaia <br/>
-                Nº20 <br/>
-                São Paulo, SP</p>
+            Pq. Res. Cocaia <br/>
+            Nº20 <br/>
+            São Paulo, SP</p>
             <img className="Paçoca" src="/images/Paçoca.jpg" alt='paçoca'/>
         </div>
         </div>
