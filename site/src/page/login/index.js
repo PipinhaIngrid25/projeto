@@ -11,27 +11,27 @@ export default function index() {
        <div className="cont">
             <h1> Bem-vindo ao Login</h1>
             <p>Acesse sua conta agora mesmo. </p>
-            <div classNamw="botoes">
-                <a className="cad" href="../menu/index.html"> Cadastrar </a>
-                <a className="log" href="../menu2/index.html"> Login </a>
+            <div className="botoes">
+                <a className="cad" href="../menu"> Cadastrar </a>
+                <a className="log" href="../menu2"> Login </a>
             </div>
            
        </div>
 
-       <div class="cont2">
+       <div className="cont2">
                 <h2> Criar uma conta </h2>
             <div className="in-1">
-               <label for="nome" > nome:</label>
+               <label For = "nome"> nome:</label>
                <input className="text" type="text" />
             </div>
 
-            <div className="in-2">
-               <label for="email" > email: </label>
+            <div className = "in-2">
+               <label For = "email" > email: </label>
                <input className="text" type="email" />
             </div>
 
             <div className="in-3">
-                <label for="senha" > senha: </label>
+                <label For = "senha" > senha: </label>
                 <input className="text" type="password" />
              </div>
             </div>
